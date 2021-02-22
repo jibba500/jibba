@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+}
+
+.link-list {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-list {
+  
+    .inside {
+      padding: 1rem 2rem;
+  
+      p {
+        margin: 0;
+      }
+    }
+  }
+  

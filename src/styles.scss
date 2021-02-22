@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "HighTide";
+    src: url(./assets/fonts/HighTide/HighTide-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "HighTide-Bold";
+    src: url(./assets/fonts/HighTide/HighTide-Bold.ttf) format("truetype");
+}
+
+
+h2 {
+    font-family: 'HighTide';
+    font-size: 5vw;
+    color: rgb(255,250,240,0.9);
+}

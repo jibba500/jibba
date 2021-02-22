@@ -1,0 +1,9 @@
+<div class="container center">
+  <div *ngIf="linkList.length > 0" class="col widget container-list">
+    <div class="list link-list">
+      <app-link-list-item
+        *ngFor="let link of linkList"
+        [linkItem]="link"></app-link-list-item>
+    </div>
+  </div>
+</div>

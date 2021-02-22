@@ -1,0 +1,45 @@
+:host {
+  display: block;
+  padding: 0 1em;
+  width: 100%;
+
+  &.moving .hide-on-moving {
+    visibility: hidden;
+  }
+
+  &.moving .inside {
+    animation: increaseIconHeight 0.5s;
+  }
+}
+
+h2 {
+    text-align: center;
+}
+
+h2:hover {
+    color: rgb(205,92,92);
+  }
+
+.inside {
+  margin: 0;
+  padding: 1em;
+  // -webkit-box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.4);
+  // box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.4);
+
+  .card-content {
+    padding: 0.1em;
+  }
+
+
+  .link-data {
+    height: 7vh;
+    p {
+      margin: 0;
+
+      strong {
+        width: 100px;
+      }
+    }
+  }
+}
+
