@@ -1,20 +1,15 @@
-#gif {
-    width:100%;
-    position: fixed;
-    bottom: 0;
-}
-
-
-a {
+p {
+    hyphens: auto; 
+	text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
     text-align: center;
+    font-size: 12px;
     width: 100%;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
+.container {
+    padding: 25px;
 }
 
 h2 {

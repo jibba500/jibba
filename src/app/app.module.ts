@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './features/dashboard/dashboard.component';
 import { LinkListItemComponent } from './features/dashboard/link-list-item/link-list-item.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { ImpressumComponent } from './features/impressum/impressum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    LinkListItemComponent
+    LinkListItemComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,

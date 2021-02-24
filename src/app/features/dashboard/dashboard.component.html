@@ -3,7 +3,11 @@
     <div class="list link-list">
       <app-link-list-item
         *ngFor="let link of linkList"
-        [linkItem]="link"></app-link-list-item>
+        [linkItem]="link"
+      ></app-link-list-item>
     </div>
   </div>
+  <p class='impressum-container'>
+    <a routerLink="/impressum" routerLinkActive="active">Impressum</a>
+  </p>
 </div>
