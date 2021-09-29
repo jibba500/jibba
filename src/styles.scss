@@ -10,7 +10,7 @@
 }
 
 
-h2 {
+h1 {
     font-family: 'HighTide';
     font-size: 7vw;
     color: rgb(255,250,240,0.9);
@@ -24,5 +24,6 @@ html, body, app-root {
     -o-background-size:cover;
     background-size:cover;
     background-position:center;
+    background-attachment: fixed;
     height: 100%;
 }
