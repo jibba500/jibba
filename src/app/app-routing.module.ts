@@ -5,18 +5,13 @@ import { ImpressumComponent } from './features/impressum/impressum.component';
 
 const routes: Routes = [
   {
-    path: 'dashboard',
+    path: '',
     component: DashboardComponent,
   },
   {
-    path: '',
-    redirectTo: 'dashboard',
-    pathMatch: 'full',
-  },
-  {
     path: 'impressum',
-    component: ImpressumComponent
-  }
+    component: ImpressumComponent,
+  },
 ];
 
 @NgModule({

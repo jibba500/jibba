@@ -1,19 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: "HighTide";
-    src: url(./assets/fonts/HighTide/HighTide-Regular.ttf) format("truetype");
+  font-family: "HighTide";
+  src: url(./assets/fonts/HighTide/HighTide-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "HighTide-Bold";
-    src: url(./assets/fonts/HighTide/HighTide-Bold.ttf) format("truetype");
+  font-family: "HighTide-Bold";
+  src: url(./assets/fonts/HighTide/HighTide-Bold.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Lakers";
+  src: url(./assets/fonts/Lakers/LakersRegular.otf) format("opentype");
+}
 
 h1 {
-    font-family: 'HighTide';
-    font-size: 7vw;
-    color: rgb(255,250,240,0.9);
+  font-family: "Lakers";
+  font-size: 7vw;
+  color: rgb(255, 250, 240, 0.9);
 }
 
 // html, body, app-root {
@@ -28,6 +32,8 @@ h1 {
 //     height: 100%;
 // }
 
-html, body, app-root {
-    height: 100%;
+html,
+body,
+app-root {
+  height: 100%;
 }
